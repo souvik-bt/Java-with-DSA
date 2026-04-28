@@ -1,0 +1,38 @@
+# Compiled Java files
+*.class
+
+# Logs
+*.log
+
+# Package files
+*.jar
+*.war
+*.ear
+
+# JVM crash logs
+hs_err_pid*
+
+# Build directories
+out/
+build/
+target/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# VS Code
+.vscode/
+
+# NetBeans
+nbproject/private/
+build/
+
+# OS files
+.DS_Store
+Thumbs.db
