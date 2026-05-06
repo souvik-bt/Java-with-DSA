@@ -9,6 +9,7 @@ public class arrayOperations {
 
         //..length
         System.out.println("lenth of arr2 : " + arr2.length);
+        System.out.println("lenth of arr1 : " + arr1.length);
 
         //..accessing
         System.out.println("first value : " + arr2[0]);
@@ -31,7 +32,8 @@ public class arrayOperations {
         
         //..copying
         int[] oldArr = {23,2,1,23,10,-3};
-        int[] newArr = Arrays.copyOf(oldArr, oldArr.length);      
+        int[] newArr = Arrays.copyOf(oldArr, oldArr.length); 
+        System.out.print("Before sorting : ");     
         for (int i : newArr) {
             System.out.print(i + " ");
         }
@@ -39,13 +41,15 @@ public class arrayOperations {
 
         //..sorting
         Arrays.sort(newArr);
+        System.out.print("After sorting : ");
         for (int i : newArr) {
-            System.out.print(i + " ");
+            System.out.print( i + " ");
         }
         System.out.println();
 
         //..searching
-        int index = Arrays.binarySearch(newArr,-3);
-        System.out.println(index);
+        int value = 1;
+        int index = Arrays.binarySearch(newArr,value);
+        System.out.println("index of "+ value + " is : " + index);
     }
 }
