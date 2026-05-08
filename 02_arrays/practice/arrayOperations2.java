@@ -1,5 +1,3 @@
-import java.util.*;
-
 public class arrayOperations2 {
     public static void main(String[] args){
 
