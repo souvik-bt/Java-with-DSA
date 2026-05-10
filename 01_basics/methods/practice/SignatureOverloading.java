@@ -1,6 +1,9 @@
 public class SignatureOverloading {
     public static void main(String[] args) {
-        
+        sum(1,2);
+        sum2(0, 0);
+        addition(0, 0);
+        sum2(0, 0, 0);
     }
 
     // Unique combination of Method Name and Parameter list is referred to signature.
@@ -26,4 +29,6 @@ public class SignatureOverloading {
     private static int sum2(int a, int b, int c) {
         return a + b;
     }
+
+    
 }
