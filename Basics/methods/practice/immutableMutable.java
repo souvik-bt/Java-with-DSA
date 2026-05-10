@@ -1,7 +1,8 @@
 public class immutableMutable {
     public static void main(String[] args) {
 
-        // string in method calling is immutable
+        // string 
+        // method calling is immutable
         // old value is not affected
         String name = "Souvik";
         System.out.println("New name : " + upper(name));
@@ -9,12 +10,13 @@ public class immutableMutable {
     }
 
     // string
-    public static String upper(String str) {
+    public static String upper(String str) {             //new variable str with same value
         return str.toUpperCase();
     }
 
     // object
-
+    // method calling is mutable
+    // old value is updated only
 }
 
 

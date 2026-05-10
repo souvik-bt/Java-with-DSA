@@ -1,3 +1,9 @@
+/* 
+src is a package
+test1 and test2 are sub-pakages.
+*/
+
+
 // write this if inside same directory/folder
 package src.test1;
 // write if import pakage from other directorys
@@ -12,6 +18,8 @@ public class main {
         // this is the class from test2
         cat cat2 = new cat();
 
+        System.out.println(cat2);
+        System.out.println(cat1);
         
     }
 }
