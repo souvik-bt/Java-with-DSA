@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 class reverseAnArray {
     
     static void reverseArray(int[] arr) {
