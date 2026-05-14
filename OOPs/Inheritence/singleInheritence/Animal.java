@@ -1,4 +1,4 @@
-package OOPs.Inheritence;
+package OOPs.Inheritence.singleInheritence;
 
 // This is parent Class
 public class Animal {

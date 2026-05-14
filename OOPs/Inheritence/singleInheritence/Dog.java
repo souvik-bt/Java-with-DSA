@@ -1,4 +1,4 @@
-package OOPs.Inheritence;
+package OOPs.Inheritence.singleInheritence;
 
 // this is child class
 // extends inherites all the parent class details
