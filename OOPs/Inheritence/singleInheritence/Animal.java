@@ -2,9 +2,12 @@ package OOPs.Inheritence.singleInheritence;
 
 // This is parent Class
 public class Animal {
+
+    // properties
     private String name;
     private int age;
-
+    
+    // behaviour
     public String getName(){
         return name;
     }

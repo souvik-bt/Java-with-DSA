@@ -48,7 +48,7 @@ public class Student{
     }
 
     // Note : 1. Method overloading works for constructors too.
-    // 2. No return type is required.
+    //        2. No return type is required.
     
    
 }

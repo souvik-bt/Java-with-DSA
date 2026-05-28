@@ -1,6 +1,6 @@
 package OOPs.Encapsulation;
 // two imp ideas:
-// 1. bundling of properties(data/variable/variable instance) and behaviour(methods)
+// 1. bundling of properties(data/instance variable) and behaviour(methods)
 // 2. providing security in accessibility
 
 public class bankAccount{
@@ -8,14 +8,14 @@ public class bankAccount{
     // properties
     
     private long accountNumber;
-    private double balance;
+    private double balance; 
 
     // behaviour
     
     // 1. setter
     public void deposit(double amount){
         if(amount > 0){
-            this.balance += amount;                         // thi. is not compulsory here.
+            this.balance += amount;                         // this. is not compulsory here.
             System.out.println("Deposited : " + amount);
         }else{
             System.out.println("Invalid Deposit Ammount");
